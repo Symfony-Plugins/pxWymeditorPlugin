@@ -1,0 +1,31 @@
+
+
+
+  #sf_admin_container .wym_skin_default .wym_buttons li a {
+    background-image:  url(../../../js/wymeditor-0.5-rc-1/wymeditor/skins/default/icons.png);    
+  }
+  #sf_admin_container .wym_skin_default .wym_buttons a {
+    padding:2px;
+  }  
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_strong a        { background-position: 0 -382px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_emphasis a      { background-position: 0 -22px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_superscript a   { background-position: 0 -430px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_subscript a     { background-position: 0 -454px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_ordered_list a  { background-position: 0 -48px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_unordered_list a{ background-position: 0 -72px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_indent a        { background-position: 0 -574px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_outdent a       { background-position: 0 -598px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_undo a          { background-position: 0 -502px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_redo a          { background-position: 0 -526px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_link a          { background-position: 0 -96px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_unlink a        { background-position: 0 -168px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_image a         { background-position: 0 -121px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_table a         { background-position: 0 -144px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_paste a         { background-position: 0 -552px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_html a          { background-position: 0 -193px;}
+  #sf_admin_container .wym_skin_default .wym_buttons li.wym_tools_preview a       { background-position: 0 -408px;}
+
+
+  .wym_skin_default { 
+    font-size:13px;
+  }  

@@ -1,0 +1,21 @@
+integration in forms
+--------------------
+ 
+    public function configure()
+    {
+      $this->widgetSchema['content'] = new sfWidgetFormTextareaJQueryWymeditor();
+    }
+  
+  
+output example
+--------------
+
+  to display html content without escaping:
+
+  change this:
+    
+    &lt;?php echo $page->getContent() ?&gt;
+      
+  to this:    
+
+    &lt;php echo $page->getRawValue()->getContent() ?&gt;  

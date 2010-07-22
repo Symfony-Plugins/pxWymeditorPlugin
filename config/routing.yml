@@ -1,0 +1,4 @@
+wymeditor_js:
+  url:   /wymeditor/js/:field_id.js
+  param: { module: wymeditor, action: index }
+
