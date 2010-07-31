@@ -36,7 +36,7 @@ class sfWidgetFormTextareaJQueryWymeditor extends sfWidgetFormTextarea
    */
   public function render($name, $value = null, $attributes = array(), $errors = array())
   {
-    sfContext::getInstance()->getResponse()->addJavascript("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
+    //sfContext::getInstance()->getResponse()->addJavascript("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
     sfContext::getInstance()->getResponse()->addJavascript("/pxWymeditorPlugin/js/wymeditor-0.5-rc-1/wymeditor/jquery.wymeditor.min.js");    
     sfContext::getInstance()->getResponse()->addJavascript(url_for("wymeditor/js")."/".$this->generateId($name));   
     $textarea = parent::render($name, $value, $attributes, $errors);
